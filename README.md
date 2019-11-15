@@ -1,11 +1,10 @@
 # hello-world
 "Những năm tháng đó, tôi cái gì cũng có, chỉ có tiền là không có. Còn bây giờ, tôi cái gì cũng không có...kể cả tiền.".
+
 #include <iostream>
 #include <string>
 #include <math.h>
-
 using namespace std;
-
 int main()
 {
 	cout << "Nhap dong thu nhat" << endl;
@@ -16,7 +15,6 @@ int main()
 	string str1;
 	getline(cin, str1);
 	string str2 = "";
-
 	for (int i = 0; i < 2 * n; i++)
 	{
 		if (str1[i] >= '0' && str1[i] <= '9')
